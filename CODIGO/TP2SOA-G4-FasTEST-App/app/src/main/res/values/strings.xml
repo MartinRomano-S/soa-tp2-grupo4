@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">FasTEST-App</string>
+
+    <!-- ENDPOINTS API SOA -->
+    <string name="api_base_url">http://so-unlam.net.ar/api/api/</string>
+    <string name="api_login_url">login</string>
+    <string name="api_register_url">register</string>
+    <string name="api_refresh_url">refresh</string>
+    <string name="api_event_url">event</string>
+
+    <!-- TEXTOS UI -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblPassword">Contraseña</string>
+    <string name="lblName">Nombre</string>
+    <string name="lblLastname">Apellido</string>
+    <string name="lblDNI">DNI</string>
+    <string name="lblRegister">Registrarse</string>
+    <string name="lblCancel">Cancelar</string>
+    <string name="lblLogin">Iniciar Sesión</string>
+    <string name="lblBattery">%1$d %%</string>
+    <string name="lblVerificationCode">Código de verificación</string>
+    <string name="lblVerify">Verificar</string>
+    <string name="lblResendVerificationCode">En caso de no haber recibido \nel código haga click en reenviar</string>
+    <string name="hintECNumber">Teléfono (xxxxxxxxxx)</string>
+    <string name="addContactButton">Agregar contacto</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="acceptButton">Aceptar</string>
+    <string name="deleteButton">Eliminar</string>
+    <string name="titleEventList">Listado de eventos</string>
+
+    <!-- EMERGENCY CONTACTS -->
+    <string name="helpEmergencyContact">Los contactos de emergencia serán notificados por SMS en caso de presentar síntomas</string>
+    <string name="titleContactList">Listado de contactos de emergencia</string>
+    <string name="contactFormTitle">Nuevo contacto de emergencia</string>
+
+    <!-- ERRORES UI -->
+    <string name="errorInvalidMail">Debe ingresarse un mail válido</string>
+    <string name="errorPasswordLength">La contraseña debe contener al menos %1$d caracteres</string>
+    <string name="errorDNI">El DNI ingresado no es válido</string>
+    <string name="errorEmptyField">El campo no puede estar vacío</string>
+    <string name="errorInvalidVerificationCode">El código ingresado es incorrecto</string>
+    <string name="titleError">Error</string>
+    <string name="requestError">Se produjo un error al enviar la petición</string>
+    <string name="credentialsError">El usuario o contraseña ingresado es incorrecto.</string>
+    <string name="networkError">El dispositivo no se encuentra conectado a la red.</string>
+    <string name="someEmptyField">Algún campo está vacio o incorrecto</string>
+
+    <!-- TEXTOS HOME -->
+    <string name="lastTestResult">Resultado del último test</string>
+    <string name="testResultIcon">ícono resultado</string>
+    <string name="resultOk">sin síntomas</string>
+    <string name="resultNotOk">con síntomas</string>
+    <string name="lastTestDate">Fecha y hora del último test:\n%1$s</string>
+    <string name="lastTestDatePlaceholder">-</string>
+    <string name="btnTest">Test Rápido</string>
+    <string name="btnEmergencyContacts">Contactos de Emergencia</string>
+    <string name="btnSignOut">Cerrar sesión</string>
+
+
+    <!-- TEXTOS EMAIL -->
+    <string name="lblVerificationCodeSent">Se ha enviado un código de verificación a la dirección: %1$s</string>
+    <string name="verificationCodeMailSubject">FasTEST | Tu código de verificación</string>
+    <string name="verificationCodeMailBody">Hola!\n\nTu código de verificación es: %1$s</string>
+    <string name="lblResendVerificationBtn">Reenviar</string>
+
+    <!-- SHARED PREFERENCES -->
+    <string name="currentVerificationCode">currentVerificationCode</string>
+
+    <!-- TEXTOS TEST -->
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+    <string name="test_de_autodiagnostico">Test de autodiagnóstico</string>
+    <string name="testPreguntaFiebre">¿Cuál es tu temperatura corporal actual?</string>
+    <string name="temperaturaDefault">36.0</string>
+    <string name="testPreguntaOlfato">¿Percibiste una marcada pérdida del olfato de manera repentina?</string>
+    <string name="consultar">Consultar</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="testPreguntaGusto">¿Percibiste una marcada pérdida del gusto (sabor de los alimentos) de manera repentina?</string>
+    <string name="testPreguntaTos">¿Tenés tos?</string>
+    <string name="testPreguntaDolorGarganta">¿Tenés dolor de garganta?</string>
+    <string name="testPreguntaDificultadRespiratoria">¿Tenés dificultad respiratoria o falta de aire?</string>
+    <string name="testPreguntaDolorCabeza">¿Tenés dolor de cabeza?</string>
+    <string name="testPreguntaDiarrea">¿Tenés diarrea?</string>
+    <string name="testPreguntaVomitos">¿Tenés vómitos?</string>
+    <string name="testPreguntaDolorMuscular">¿Tenés dolor muscular?</string>
+    <string name="sinSintomas">No tenés síntomas compatibles con COVID.</string>
+    <string name="resultadoTest">Resultado FasTEST</string>
+    <string name="volverAlTest">Volver al test</string>
+    <string name="temperaturaMaximaAlcanzada">Temperatura máxima alcanzada</string>
+    <string name="temperaturaMinimaAlcanzada">Temperatura mínima alcanzada</string>
+    <string name="errorPhoneNumberFormat">El número de teléfono debe empezar con 11 ó 15 y contener 10 dígitos</string>
+
+    <!-- TEXTOS RESULTADO -->
+    <string name="resultadoSintomasCompatibles">Presentás síntomas\ncompatibles con COVID.</string>
+    <string name="covidLlamar">Para comunicarte con una línea de\natención COVID, presioná el botón\no acercá el teléfono a tu oído.</string>
+    <string name="covidMensajear">Para avisar a tus contactos de emergencia, presioná el botón\no agitá tu teléfono.</string>
+    <string name="covidLlamarBoton">Llamar</string>
+    <string name="covidMensajearBoton">Enviar mensaje</string>
+    <string name="botonVolverAHome">Volver al inicio</string>
+    <string name="iconoAlertText">Icono de alerta</string>
+    <string name="smsMessage">¡Hola! Tengo síntomas compatibles con COVID.</string>
+    <string name="testPlaceholder">¡Haz tu primer test!</string>
+    <string name="batteryCharging">Cargando</string>
+    <string name="batteryLevel">Nivel de batería</string>
+
+</resources>

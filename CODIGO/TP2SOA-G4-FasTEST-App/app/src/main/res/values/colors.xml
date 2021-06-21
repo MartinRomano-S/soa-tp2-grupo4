@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>-->
+
+    <!-- Main colors -->
+    <color name="colorPrimary">#BDDBFF</color>
+    <color name="colorPrimaryLight">#F2F2F2</color>
+    <color name="colorPrimaryDark">#00418E</color>
+    <color name="colorAccent">#00418E</color>
+
+    <!-- Main color shadows -->
+    <color name="colorPrimaryShadow">#b3d5ff</color>
+    <color name="colorPrimaryLightShadow">#d9d9d9</color>
+    <color name="colorPrimaryDarkShadow">#003a80</color>
+
+    <!-- Alert colors -->
+    <color name="colorSuccess">#d4edda</color>
+    <color name="colorError">#f8d7da</color>
+</resources>
